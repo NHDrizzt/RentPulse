@@ -77,7 +77,7 @@ const Navbar = () => {
                 </Link>
                 {isLoggedIn && (
                   <Link
-                    href="/properties/add"
+                    href="/images/properties/add"
                     className={`${
                       pathname === "/properties/add" ? "bg-black" : ""
                     } text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`}
@@ -172,7 +172,7 @@ const Navbar = () => {
                       Your Profile
                     </Link>
                     <Link
-                      href="/properties/saved"
+                      href="/images/properties/saved"
                       className="block px-4 py-2 text-sm text-gray-700"
                       role="menuitem"
                       tabIndex="-1"
@@ -209,7 +209,7 @@ const Navbar = () => {
               Home
             </Link>
             <Link
-              href="/properties"
+              href="/images/properties"
               className={`${
                 pathname === "/properties" ? "bg-black" : ""
               } text-white block rounded-md px-3 py-2 text-base font-medium`}
@@ -218,7 +218,7 @@ const Navbar = () => {
             </Link>
             {isLoggedIn && (
               <Link
-                href="/properties/add"
+                href="/images/properties/add"
                 className={`${
                   pathname === "/properties/add" ? "bg-black" : ""
                 } text-white block rounded-md px-3 py-2 text-base font-medium`}

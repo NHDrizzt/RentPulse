@@ -1,4 +1,6 @@
 import React from "react";
+import Hero from "@/components/Hero";
+import InfoBoxes from "@/components/InfoBoxes";
 
 export const metadata = {
   title: "RentPulse | Your perfect Rental",
@@ -8,10 +10,10 @@ export const metadata = {
 
 const HomePage = () => {
   return (
-    <div>
-      <h1>Welcome to Rent Pulse</h1>
-      <p>Find your next rental property here</p>
-    </div>
+    <>
+      <Hero />
+      <InfoBoxes />
+    </>
   );
 };
 
